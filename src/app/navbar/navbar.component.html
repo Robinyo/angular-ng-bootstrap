@@ -11,10 +11,22 @@
     <div class="navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" (click)="navbarCollapsed = true">Getting Started</a>
+          <a class="nav-link" style="padding-top: 12px;" (click)="navbarCollapsed = true">Getting Started</a>
         </li>
+        <!--
         <li class="nav-item">
           <a class="nav-link" (click)="navbarCollapsed = true">Components</a>
+        </li>
+        -->
+        <li class="nav-item">
+          <div ngbDropdown class="d-inline-block" style="padding-top: 8px;">
+            <button class="btn btn-outline-secondary btn-sm" id="dropdownMenuButton" ngbDropdownToggle>Components</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+              <button class="dropdown-item">Component 1</button>
+              <button class="dropdown-item">Component 2</button>
+              <button class="dropdown-item">Component 3</button>
+            </div>
+          </div>
         </li>
       </ul>
 
