@@ -1,20 +1,114 @@
-<!--The whole content below can be removed with the new code.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=" />
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul>
+<app-navbar></app-navbar>
+
+<main class="bd-masthead">
+  <div class="container">
+    <img alt="ng-bootstrap logo" class="bd-booticon" src="assets/img/logo.svg">
+    <p class="lead d-none d-md-block">
+      Bootstrap 4 components, powered by Angular
+    </p>
+    <p>Currently at v1.0.0-beta.2</p>
+    <p class="lead">
+      <a class="btn btn-outline-primary" href="#/components">Demo</a>
+      <a class="btn btn-outline-primary" href="#/getting-started">Installation</a>
+    </p>
+  </div>
+</main>
+
+<section class="container">
+
+  <div class="row">
+    <div class="col-sm-2">
+      <img alt="Native widgets icon (computer chip)" class="img-fluid d-none d-sm-block" src="assets/img/cpu.svg">
+    </div>
+    <div class="col-sm-4">
+      <h4>Native</h4>
+      <p class="text-muted">
+        Angular - specific widgets built from ground and using Bootstrap 4 CSS. APIs that makes sense in the Angular ecosystem.
+        No dependencies on 3rd party JavaScript.
+      </p>
+    </div>
+
+    <div class="col-sm-2">
+      <img alt="UI Widgets icon" class="img-fluid d-none d-sm-block" src="assets/img/browser.svg">
+    </div>
+    <div class="col-sm-4">
+      <h4>Widgets</h4>
+      <p class="text-muted">
+        All the Bootstrap widgets (ex.
+        <a href="#/components/carousel">carousel</a>,
+        <a href="#/components/modal">modal</a>,
+        <a href="#/components/popover">popovers</a>,
+        <a href="#/components/tooltip">tooltips</a>,
+        <a href="#/components/tabs">tabs</a>, ...) and several additional goodies (
+        <a href="#/components/datepicker">datepicker</a>,
+        <a href="#/components/rating">rating</a>,
+        <a href="#/components/timepicker">timepicker</a>,
+        <a href="#/components/typeahead">typeahead</a>).
+      </p>
+    </div>
+  </div>
+
+  <div class="row mt-md-5">
+    <div class="col-sm-2">
+      <img alt="Quality icon" class="img-fluid d-none d-sm-block" src="assets/img/test.svg">
+    </div>
+    <div class="col-sm-4">
+      <h4>Quality</h4>
+      <p class="text-muted">
+        All code is tested (almost 100% test coverage) and all changes reviewed. We are not cutting corners.
+      </p>
+    </div>
+
+    <div class="col-sm-2">
+      <img alt="Accessible icon (escalator)" class="img-fluid d-none d-sm-block" src="assets/img/escalator.svg">
+    </div>
+    <div class="col-sm-4">
+      <h4>Accessible</h4>
+      <p class="text-muted">
+        All the widgets are accessible. We use proper HTML elements and required aria attributes.
+        Keyboard navigation and focus management works as expected.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mt-md-5">
+    <div class="col-sm-2">
+      <img alt="Team icon" class="img-fluid d-none d-sm-block" src="assets/img/team.svg">
+    </div>
+    <div class="col-sm-4">
+      <h4>Team</h4>
+      <p class="text-muted">
+        We've created <a href="https://angular-ui.github.io/bootstrap/" target="_blank">angular-ui/bootstrap</a> and have spent several years doing widget development. A number of team members are core Angular contributors.
+      </p>
+    </div>
+
+    <div class="col-sm-2">
+      <img alt="Community icon" class="img-fluid d-none d-sm-block" src="assets/img/world.svg">
+    </div>
+    <div class="col-sm-4">
+      <h4>Community</h4>
+      <p class="text-muted">
+        We give back to the community be contributing to projects we build upon (Angular, Bootstrap). We support people on <a href="http://stackoverflow.com/questions/tagged/ng-bootstrap">Stack Overflow</a>.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<footer class="bd-footer text-muted">
+  <div class="container">
+    <p>Designed and built by the <a href="https://github.com/orgs/ng-bootstrap/people" target="_blank">ng-bootstrap
+      team</a> with the help of our <a href="https://github.com/ng-bootstrap/ng-bootstrap/graphs/contributors" target="_blank">contributors</a>.</p>
+    <p>Code licensed under <a href="https://raw.githubusercontent.com/ng-bootstrap/ng-bootstrap/master/LICENSE" target="_blank">MIT license conditions.</a></p>
+    <p>
+      Documentation licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.
+      Design and content of the documentation site heavily inspired by the <a href="http://v4-alpha.getbootstrap.com/" target="_blank">original Bootstrap design</a>.</p>
+    <p>Icons made by
+      <a href="http://www.flaticon.com/authors/eucalyp" target="_blank">Eucalyp</a>,
+      <a href="http://www.flaticon.com/authors/freepik" target="_blank">Freepik</a>,
+      <a href="http://www.flaticon.com/authors/nikita-golubev" target="_blank">Nikita Golubev</a> and
+      <a href="http://www.flaticon.com/authors/pixel-perfect" target="_blank">Pixel perfect</a>
+      from <a href="http://www.flaticon.com" target="_blank">www.flaticon.com</a></p>
+  </div>
+</footer>
 

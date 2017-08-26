@@ -1,0 +1,28 @@
+<div class="container" style="padding-left: 0; padding-right: 0;">
+  <header class="navbar navbar-light navbar-fixed-top navbar-expand-lg">
+
+    <a class="navbar-brand" (click)="navbarCollapsed = true">ng-bootstrap</a>
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" (click)="navbarCollapsed = !navbarCollapsed"
+            [attr.aria-expanded]="!navbarCollapsed" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse" [ngbCollapse]="navbarCollapsed" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" (click)="navbarCollapsed = true">Getting Started</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="navbarCollapsed = true">Components</a>
+        </li>
+      </ul>
+
+      <span class="github-buttons d-none d-lg-inline">
+        <iframe allowtransparency="true" scrolling="no" frameborder="0" src="https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fng-bootstrap%2Fng-bootstrap&amp;aria-label=Star%20ng-bootstrap%2Fng-bootstrap%20on%20GitHub&amp;data-text=Star&amp;data-size=large&amp;data-show-count=true" style="width: 116px; height: 28px; border: none;"></iframe>
+        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-hashtag-button twitter-hashtag-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.f8c8d971a6ac545cf416e3c1ad4bbc65.en.html#button_hashtag=ngbootstrap&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fng-bootstrap.github.io%2F%23%2Fhome&amp;size=l&amp;text=I%27m%20checking%20out%20ng-bootstrap%2C%20THE%20Angular%20UI%20framework%20for%20Bootstrap%20CSS&amp;time=1503714807940&amp;type=hashtag&amp;url=https%3A%2F%2Fng-bootstrap.github.io" style="position: static; visibility: visible; width: 155px; height: 28px;" data-hashtag="ngbootstrap"></iframe>
+      </span>
+
+    </div>
+  </header>
+</div>
