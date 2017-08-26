@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
 
-![angular-ng-bootstrap screenshot](https://github.com/Robinyo/angular-ng-bootstrap/blob/master/ng-bootstrap-2.png)
+![angular-ng-bootstrap screenshot](https://github.com/Robinyo/angular-ng-bootstrap/blob/master/ng-bootstrap.png)
 
 ## Development server
 
